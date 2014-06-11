@@ -41,6 +41,7 @@ class CKEditorWidget(forms.Textarea):
         try:
             js = (
                 settings.STATIC_URL + 'ckeditor/ckeditor/ckeditor.js',
+                settings.STATIC_URL + 'ckeditor/ckeditor/inline-fix.js',
             )
         except AttributeError:
             raise ImproperlyConfigured("django-ckeditor requires \
