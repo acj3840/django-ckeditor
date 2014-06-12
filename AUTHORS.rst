@@ -4,7 +4,7 @@ AUTHORS
 
 This fork
 ----------
-#. `riklaunim <https://github.com/riklaunim>`_
+#. `acj3840 <https://github.com/acj3840>`_
 
 
 Created By

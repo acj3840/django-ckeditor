@@ -8,13 +8,13 @@ def get_source_files():
             yield os.path.join('/'.join(dirname.split('/')[1:]), filename)
 
 setup(
-    name='django-ckeditor-updated',
+    name='django-ckeditor-updated-inline-fix',
     version='4.2.8',
-    description='Django admin CKEditor integration.',
+    description='Django admin CKEditor integration. Includes admin inline fix',
     long_description=open('README.rst', 'r').read() + open('AUTHORS.rst', 'r').read() + open('CHANGELOG.rst', 'r').read(),
-    author='Piotr Malinski',
-    author_email='riklaunim@gmail.com',
-    url='https://github.com/riklaunim/django-ckeditor',
+    author='Alex Jones',
+    author_email='alex_jones@wgbh.org',
+    url='https://github.com/acj3840/django-ckeditor',
     packages=find_packages(exclude=["*.demo"]),
     install_requires=[
         'Django',

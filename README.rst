@@ -1,5 +1,7 @@
 Django CKEditor
 ===============
+**This version includes a fix for when you add a RichTextField as an inline in the admin. It used to be unresponsive, now it's not.**
+
 **Note that there are two packages on PyPi - old django-ckeditor made of this repository, and newer django-ckeditor-updated made from riklaunim / django-ckeditor fork.**
 
 Recently the code from riklaunim / django-ckeditor was merged into this repository but the PyPi package hasn't been updated yet.
